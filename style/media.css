@@ -1,0 +1,119 @@
+@media(max-width:1200px){
+    .galery-card-1, .galery-card-2, .galery-card-3, .galery-card-4{
+        max-width: 280px;
+        width: 100%;
+    }
+    .main-galery{
+        justify-content: space-between;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .desck{
+        font-size: 16px;
+        max-width: 500px;
+        width: 100%;
+    }
+    .main-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-galery{
+        padding: 0 15px;
+    }
+    .nav-content{
+        justify-content: space-between;
+    }
+    .tytle{
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:1150px){
+    .footer-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .nav-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .main-galery{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+     .main-box2{
+         max-width: 1110px;
+         width: 100%;
+     }
+     .desck{
+         max-width: 700px;
+         width: 100%;
+         text-align: justify;
+        
+     }
+     .tytle{
+         text-align: center;
+     }
+     .main-box2{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .nav-list{
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .container{
+         padding: 0;
+     }
+    
+   
+   
+}
+@media(max-width:800px){
+    .desck{
+        max-width: 600px;
+        width: 100%;
+        
+       
+    }
+}
+@media(max-width:650px){
+    .desck{
+        max-width: 550px;
+        width: 100%;
+        line-height: 19px;
+        padding: 0;
+    }
+    .tytle{
+        font-size: 21px;
+    }
+}
+@media(max-width:600px){
+    .desck{
+        max-width: 400px;
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    .desck{
+        max-width: 300px;
+        width: 100%;
+    }
+}
+@media(max-width:370px){
+    .tytle{
+        font-size: 20px;
+    }
+}
+
